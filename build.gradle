@@ -26,6 +26,5 @@ repositories{
 dependencies { //의존성들을 선언하는곳이다.
                //의존성 코드의 버전을 명시하면 않아야만 위의 dependencies의 버전을 따라가게 된다.
     compile('org.springframework.boot:spring-boot-starter-web')
-
     testCompile('org.springframework.boot:spring-boot-starter-test')
 }
